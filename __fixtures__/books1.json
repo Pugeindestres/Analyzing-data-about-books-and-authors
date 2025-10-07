@@ -1,0 +1,70 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "JavaScript Basics",
+      "author": "John Smith",
+      "year": 2020,
+      "genre": "Programming",
+      "rating": 4.5,
+      "pages": 300,
+      "tags": ["javascript", "web", "frontend"],
+      "readers": ["Alice", "Bob", "Charlie", "Alice", "David"]
+    },
+    {
+      "id": 2,
+      "title": "Python Advanced",
+      "author": "Emma Wilson", 
+      "year": 2019,
+      "genre": "Programming",
+      "rating": 4.2,
+      "pages": 450,
+      "tags": ["python", "algorithms", "data"],
+      "readers": ["Bob", "Eve", "Frank", "Alice", "Bob", "Grace"]
+    },
+    {
+      "id": 3,
+      "title": "Data Structures",
+      "author": "Mike Johnson",
+      "year": 2017,
+      "genre": "Programming", 
+      "rating": 4.3,
+      "pages": 300,
+      "tags": ["algorithms", "data", "structures"],
+      "readers": ["Charlie", "David", "Alice", "Frank", "Alice"]
+    },
+    {
+      "id": 4,
+      "title": "Web Development",
+      "author": "Sarah Brown",
+      "year": 2021,
+      "genre": "Programming",
+      "rating": 4.8, 
+      "pages": 350,
+      "tags": ["web", "frontend", "javascript"],
+      "readers": ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace"]
+    },
+    {
+      "id": 5,
+      "title": "Science Fiction",
+      "author": "Alex Rover",
+      "year": 2022,
+      "genre": "Fiction",
+      "rating": 4.1,
+      "pages": 280,
+      "tags": ["fiction", "sci-fi", "space"],
+      "readers": ["Henry", "Ivy", "Jack", "Henry"]
+    },
+    {
+      "id": 6, 
+      "title": "Machine Learning",
+      "author": "Lisa Zhang",
+      "year": 2023,
+      "genre": "Science",
+      "rating": 4.6,
+      "pages": 420,
+      "tags": ["ai", "machine-learning", "python"],
+      "readers": ["Bob", "Charlie", "David", "Eve", "Frank", "Alice"]
+    }
+  ]
+}

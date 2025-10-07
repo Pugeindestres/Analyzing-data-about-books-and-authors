@@ -12,8 +12,15 @@ export default (data) => {
   const booksPopular = books.map((book) => ({ name: book.title, rating: book.rating })).sort((a, b) => b.rating - a.rating).map((book) => `${book.title}: ${book.rating}`).join(', ');
   console.log(`Рейтинг и название книги: ${booksPopular}`);
   // 4. Вывести книги в жанре "Programming" в формате: {id: X, title: "Y"}
+  const bookGenre = books.filter((books) => books.genre === "Programming").map((book) => `{ id: ${book.id}, name: ${book.title} }`).join(', ');
+  console.log(`Книги в жанре "Programming": ${bookGenre}`);
   // 5. Вывести уникальные теги всех книг, отсортированные по алфавиту
+  const bookTags = books.flatMap(book => book.tags);
+const uniqueTags = [...new Set(bookTags)].sort().join(', ');
+console.log(`Уникальные теги: ${uniqueTags}`);
   // 6. Вывести топ-3 самых популярных читателей по количеству прочитанных книг
+    
   // 7. Вывести среднее количество страниц по каждому жанру
+
 };
 

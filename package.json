@@ -1,5 +1,23 @@
 {
-  "name": "book-analysis",
+  "name": "code",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "description": "📚 Задачи для анализа данных о книгах: Вывести названия всех книг",
+  "main": "index.js",
+  "bin": {
+    "code": "bin/books.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pugeindestres/Analyzing-data-about-books-and-authors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pugeindestres/Analyzing-data-about-books-and-authors/issues"
+  },
+  "homepage": "https://github.com/Pugeindestres/Analyzing-data-about-books-and-authors#readme"
 }

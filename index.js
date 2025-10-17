@@ -16,8 +16,8 @@ export default (data) => {
   console.log(`Книги в жанре "Programming": ${bookGenre}`);
   // 5. Вывести уникальные теги всех книг, отсортированные по алфавиту
   const bookTags = books.flatMap(book => book.tags);
-const uniqueTags = [...new Set(bookTags)].sort().join(', ');
-console.log(`Уникальные теги: ${uniqueTags}`);
+  const uniqueTags = [...new Set(bookTags)].sort().join(', ');
+  console.log(`Уникальные теги: ${uniqueTags}`);
   // 6. Вывести топ-3 самых популярных читателей по количеству прочитанных книг
     
   // 7. Вывести среднее количество страниц по каждому жанру
